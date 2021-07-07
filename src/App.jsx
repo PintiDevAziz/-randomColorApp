@@ -6,6 +6,7 @@ function App() {
   const [colorFromat, setColorFormat] = useState("hex");
   const [luminosity, setLuminosity] = useState("random");
   const [hue, setHue] = useState("random");
+  console.log('hello')
   const generateRandomColor = () => {
     setColor(
       randomColor({
